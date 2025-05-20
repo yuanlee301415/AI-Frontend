@@ -1,12 +1,12 @@
 {
-  "name": "vue3-ts-tailwind-template",
-  "version": "1.7.0",
-  "description": "Vue3 + TS + Tailwind 模板",
+  "name": "ai-frontend",
+  "version": "1.0.0",
+  "description": "AI-Frontend",
   "private": true,
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git@github.com:yuanlee301415/Vue3-TS-Tailwind-Template.git"
+    "url": "https://github.com/yuanlee301415/AI-Frontend"
   },
   "scripts": {
     "dev": "vite",
@@ -17,7 +17,7 @@
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
     "gen": "node ./scripts/gen.js",
-    "server": "json-server server/db.json5 --port 3001"
+    "server": "json-server server/db.json5 --port 3501"
   },
   "dependencies": {
     "axios": "^1.7.7",
