@@ -5,6 +5,7 @@ import { defineConfig, loadEnv } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 import { createHtmlPlugin } from "vite-plugin-html";
+import UnoCSS from 'unocss/vite'
 
 import pkg from "./package.json";
 
@@ -32,6 +33,7 @@ export default defineConfig(({ mode }: ConfigEnv): UserConfig => {
     plugins: [
       vue(),
       vueJsx(),
+      UnoCSS(),
       createHtmlPlugin({
         entry: "src/main.ts",
         minify: true,

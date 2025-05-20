@@ -26,8 +26,11 @@
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
+    "@iconify-json/fa6-solid": "^1.2.3",
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.16.11",
+    "@unocss/preset-icons": "^66.1.2",
+    "@unocss/reset": "^66.1.2",
     "@vitejs/plugin-vue": "^5.1.4",
     "@vitejs/plugin-vue-jsx": "^4.0.1",
     "@vue/eslint-config-prettier": "^10.0.0",
@@ -40,6 +43,7 @@
     "npm-run-all2": "^6.2.3",
     "prettier": "^3.3.3",
     "typescript": "~5.5.4",
+    "unocss": "^66.1.2",
     "vite": "^5.4.8",
     "vite-plugin-html": "^3.2.2",
     "vue-tsc": "^2.1.6"
